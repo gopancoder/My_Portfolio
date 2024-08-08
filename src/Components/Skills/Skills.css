@@ -1,0 +1,25 @@
+.skills{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px 100px;
+    align-items: center;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    margin: 90px 0px;
+}
+.checkmarck-icon{
+    width: 25px;
+}
+.frontend, .backend{
+    display: block;
+    align-items: center;
+    border: 1px dotted gray;
+    width: 400px;
+    padding: 0px 40px;
+    border-radius: 10px;
+}
+.frontend h2, .backend h2{
+    opacity: 0.8;
+}

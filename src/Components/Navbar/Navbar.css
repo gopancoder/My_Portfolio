@@ -1,0 +1,27 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: white;
+}
+.list{
+    padding-right: 10%;
+}
+.list ul li{
+    display: inline-flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+.my_name{
+    padding-left: 10%;
+    font-weight: 800;
+}

@@ -1,0 +1,25 @@
+.contact{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    left: 35%;
+    width: 30%;
+    margin-top: 80px;
+    border: 1px dotted gray;
+    border-radius: 10px;
+    margin-bottom: 90px;
+}
+.icon{
+    width: 20px;
+    padding-right: 10px;
+}
+#email{
+    width: 25px;
+    transform: translateY(10px);
+}
+.contact h2{
+    font-size: 20px;
+    font-style: italic;
+}

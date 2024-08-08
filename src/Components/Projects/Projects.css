@@ -1,0 +1,40 @@
+.project{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    position: relative;
+    left: 8%;
+    margin-top: 40px;
+    padding: 20px 130px;
+    box-sizing: border-box;
+
+}
+.project1 img, .project2 img,.project3 img{
+    width: 300px;
+    height: 340px;
+    border-radius: 10px;
+}
+.project1 ,.project2,.project3{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+.project1 button,.project2 button,.project3 button{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(63, 59, 59);
+    color: white;
+    cursor: pointer;
+}
+.project1:hover ,.project2:hover,.project3:hover{
+    background-color: rgb(237, 232, 228);
+}

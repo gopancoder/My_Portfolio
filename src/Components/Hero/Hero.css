@@ -1,0 +1,80 @@
+.hero
+{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 30%;
+    margin: 150px 0px;
+}
+.platforms button{
+    border: none;
+    outline: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+.plat img{
+    width: 25px;
+    margin: 20px 0px;
+}
+.profilepic{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.contactcv{
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contactcv button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    
+}
+.cv{
+    margin-right: 10px;
+}
+.intro{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 0.7;
+}
+.intro h3{
+    font-display: inherit;
+    color: rgba(0, 0, 0, 0.5);
+}
+.intro h2{
+    color: rgba(0, 0, 0, 0.8);
+}
+.intro h1{
+    font-size: 40px;
+}
+.cv{
+    background-color: rgb(18, 20, 20);
+    color: white;
+    border-color: rgb(255, 255, 255);
+    
+}
+.cv:hover{
+    background-color: white;
+    color: rgb(18, 20, 20);
+    border-color: rgb(18, 20, 20) ;
+}
+.cont{
+    background-color: white;
+    color: rgb(18, 20, 20);
+    border-color: rgb(18, 20, 20) ;
+}
+.cont:hover{
+    background-color: rgb(18, 20, 20);
+    color:rgb(255, 255, 255) ;
+    border-color: white;
+}

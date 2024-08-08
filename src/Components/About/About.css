@@ -1,0 +1,43 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    position: relative;
+    left: 12.5%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border: 1px dotted gray;
+    padding: 2.5% 2.55%;
+    border-radius: 10px;
+}
+.sidephoto{
+    width: 300px;
+    border-radius: 10px;
+}
+.education_icon{
+    width:20px ;
+}
+.education{
+    border-radius: 10px;
+    margin-left: 30px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    text-align: center;
+    line-height: 0.5;
+}
+.education:hover{
+    background-color: rgb(224, 224, 224);
+}
+.intro{
+    margin: 10px 30px;
+    line-height: 1.3;
+}
+.education h4{
+    opacity: 0.5;
+}
+.intro p{
+    line-height: 1.5;
+}
